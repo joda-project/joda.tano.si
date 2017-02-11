@@ -1,0 +1,61 @@
+---
+id: home
+layout: default
+---
+
+<section id="hero-home" class="hero is-primary is-fullheight has-gradient">
+  {% include common/github-corner.html %}
+
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-5">
+          <div class="logo-huge"></div>
+        </div>
+        <div class="column has-text-centered-mobile">
+          <h1>
+            {{site.description}}
+          </h1>
+
+          <a href="https://github.com/joda-project" class="button is-large is-primary is-inverted">Follow development on GitHub</a>
+
+          <p></p>
+
+          <div class="tabs has-text-centered-mobile">
+            <ul>
+              <!-- <li>
+                <a href="{{ site.data.stable.release }}" target="_blank">Version {{ site.data.stable.version }}</a>
+              </li> -->
+              <li>
+                No stable version
+              </li>
+              <li>
+                <a href="{{ " /license/ " | prepend: site.baseurl }}">License</a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="tabs has-text-centered-mobile">
+            <ul>
+              <li>
+                <a href="{{ " /help/ " | prepend: site.baseurl }}">Help &amp; Support</a>
+              </li>
+              <li>
+                <a href="{{ " /license/ " | prepend: site.baseurl }}">License</a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-foot">
+    <nav class="tabs">
+      <div class="hero-foot-container">
+        <ul>
+          <li><a href="#features" class="smooth-scroll"><i class="fa fa-angle-down"></i>&nbsp;Scroll down to learn more (soon!)&nbsp;<i class="fa fa-angle-down"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
