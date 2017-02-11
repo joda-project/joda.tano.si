@@ -1,0 +1,36 @@
+# Site settings
+title: Joda Project
+email: tadej@tano.si
+description: A simple reference management web application
+url: "https://joda.tano.si"
+baseurl: ""
+primary_color: "#207178"
+
+github: "https://github.com/joda-project"
+
+# Build settings
+production: false
+incremental: true
+source: src
+destination: public
+layouts_dir: _tano-style/html/_layouts
+markdown: kramdown
+exclude: []
+
+gems:
+  - jekyll-assets
+
+assets:
+  cache: .asset-cache
+  compress:
+    css: true
+    js: true
+  features:
+    automatic_img_alt: false
+    automatic_img_size: false
+  sources:
+    - _assets/scripts
+    - _assets/sass
+    - _assets/images
+    - _tano-style
+    - _tano-style/node_modules
