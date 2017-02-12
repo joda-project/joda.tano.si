@@ -14,9 +14,7 @@
 
 .logo-huge
   margin: 0 auto
-  width: 90%
-  max-width: 300px
-  background-size: contain
+  width: 300px
 
   +background("logo/huge.png", "no-repeat center")
 
@@ -28,12 +26,15 @@
   +retina
     +background-image("logo/huge@2x.png")
 
+    background-size: 300px 150px
+
 
   +mobile
-    width: 70%
-    max-width: 200px
+    width: 200px
 
     +background-image("logo/huge-mobile.png")
 
     +retina
       +background-image("logo/huge-mobile@2x.png")
+
+      background-size: 200px 100px
