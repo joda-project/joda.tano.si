@@ -16,7 +16,7 @@ destination: public
 layouts_dir: _tano-style/html/_layouts
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-exclude: []
+exclude: [node_modules]
 
 gems:
   - jekyll-assets
