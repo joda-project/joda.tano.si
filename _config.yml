@@ -34,3 +34,4 @@ assets:
     - _assets/images
     - _tano-style
     - _tano-style/node_modules
+    - node_modules
