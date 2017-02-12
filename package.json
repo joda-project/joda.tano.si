@@ -7,5 +7,7 @@
   "homepage": "https://joda.tano.si",
   "repository": "joda-project/joda.tano.si",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "tano-style": "ntadej/tano-style"
+  }
 }
