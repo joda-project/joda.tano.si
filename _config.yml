@@ -15,10 +15,11 @@ source: src
 destination: public
 layouts_dir: _tano-style/html/_layouts
 markdown: kramdown
+highlighter: pygments
 permalink: /:year/:month/:day/:title/
 exclude: [node_modules]
 
-gems:
+plugins:
   - jekyll-assets
 
 assets:
@@ -33,6 +34,6 @@ assets:
     - _assets/scripts
     - _assets/sass
     - _assets/images
-    - _tano-style
-    - _tano-style/node_modules
     - node_modules
+    - node_modules/tano-style/sass
+    - node_modules/tano-style/scripts

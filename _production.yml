@@ -1,6 +1,3 @@
 # Build settings
 production: true
 incremental: false
-
-assets:
-  cdn: "//cdn.tano.si/joda-project/"

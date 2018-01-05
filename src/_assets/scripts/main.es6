@@ -1,5 +1,5 @@
 /* jshint esversion: 6 */
-//= require scripts/navigation
+//= require navigation
 
 $(document).ready(() => {
   Navigation.init();
