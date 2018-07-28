@@ -12,3 +12,4 @@ gem 'babel-transpiler'
 gem 'sprockets', '~> 4.0.beta', {
   require: false
 }
+gem "font-awesome-sass"
